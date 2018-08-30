@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body onsubmit="submit()"  >
+    
+    
+    <div id="all">
+            <h1 class="brand"><span>ADA </span>Students feedback</h1>
+    		<div class="wrapper ">
+        
+
+    			<div class="information hh">
+            		<img src="https://techcrunch.com/wp-content/uploads/2015/04/uncle-sam-we-want-you1-kopie_1.png?w=730&amp;crop=1" alt="" width="100%">
+   			         <h3>To give us feedback, because this course is made for you! Because it's all about you!</h3>
+    
+   			         Fill this form if you: 
+            		<ul>
+            			<li> Find an error in the content or in the quizzes</li>
+            			<li> Have a feedback about instructors or the experience</li>
+            			<li> Have a suggestion on how to make the course better</li> 
+            		</ul>
+    			</div>
+    			<div class="form hh">
+            		<h3>Email Us</h3> 
+        		<form id="contactform">
+        			<p>
+           			 <label>Name</label>  
+            		<input type="text" name="fullname"  placeholder=" name" id="name"  >
+        			</p>
+        			<p>
+            		<label>track</label>
+            		<select name="list" form="form" id="celectform">
+            		<option value="AI" id="AI">AI</option>
+            		<option value="Web" id="WEB">Web</option>
+            		<option value="Game" id="GAME">Game</option>
+            		</select> 
+        			</p>
+        			<p>
+            		<label>Slide name (or object)</label>
+            		<input type="text" name="slide" required="true" id="slide" >
+        			</p>
+    			    <p class="full">
+               		<label>message</label> 
+                	<textarea name="message"  id="message" ></textarea  >
+        			</p>
+        			<p class="full">
+        			<button type="submit" >Submit</button>
+
+        			</p>
+        		</form>
+    
+        
+            </div>      
+        </div>
+    </div>
+
+</body>
+ <script src="js/main.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+</html>
